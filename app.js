@@ -28,3 +28,26 @@ switch (currentDay) {
 }
 
 console.log(currentDayWorld);
+
+for (let k = 0; k < 100; k++) {
+  console.log(k, "for");
+}
+
+let t = 0;
+while (t < 50) {
+  console.log(t, "while");
+  t++;
+}
+
+let y = 0;
+
+do {
+  console.log(y, "do while");
+  y++;
+} while (y < 150);
+
+let myArr = [];
+for (let h = 3; h < 1000; h++) {
+  myArr.push(h * h);
+}
+console.log(myArr);
